@@ -32,6 +32,4 @@ on a car price dataset. All implementations are done independently.
 ## Learning Source
 - Concepts practiced independently after learning from **IBM Cognitive.ai (Skills Network)**.
 
-# car-price-data-analysis
-Data preprocessing and EDA on car price dataset using Python
 
