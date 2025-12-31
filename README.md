@@ -1,37 +1,49 @@
+# Car Price Data Analysis 🚗📊
 
-# Car Price Data Analysis
-
-This project demonstrates end-to-end data preprocessing and exploratory data analysis (EDA)
-on a car price dataset. All implementations are done independently.
-
-## Project Workflow
-
-1. **Data Preprocessing** (`01_data_preprocessing.ipynb`)
-   - Handling missing values
-   - Correcting data formats
-   - Standardization and normalization
-   - Feature binning
-
-2. **Exploratory Data Analysis (EDA)** (`02_exploratory_data_analysis.ipynb`)
-   - Descriptive statistics
-   - Visualizations: histograms, boxplots, scatterplots
-   - Insights and trends derived from the dataset
+## Project Overview
+This project analyzes car price data based on various automobile characteristics.
+The dataset was provided as part of an IBM Cognitive Class course and has been
+used here for educational and portfolio purposes.
 
 ## Dataset
-- The project uses the IBM Car Price dataset, which has been **cleaned and preprocessed independently** for this project.
-- Dataset is included in the `data/` folder as `car_price_cleaned.csv`.
+- Source: IBM Cognitive Class (Educational dataset)
+- Type: Structured tabular data
+- Target variable: Car Price
 
-## Tools & Libraries
+## Data Preprocessing
+- Handled missing values
+- Corrected data types
+- Standardized and normalized numerical features
+- Applied binning for categorical analysis
+
+Notebook:
+- notebooks/car_price_data_preprocessing.ipynb
+
+## Exploratory Data Analysis (EDA)
+- Univariate and multivariate analysis
+- Correlation analysis
+- Price vs feature visualizations
+
+Notebook:
+- notebooks/car_price_EDA.ipynb
+
+## Model Building
+- Algorithm: Linear Regression
+- Library: scikit-learn
+- Feature scaling using StandardScaler
+
+## Model Evaluation
+- R² Score
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+
+## Tools & Technologies
 - Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+- Pandas, NumPy
+- Matplotlib, Seaborn
 - Scikit-learn
+- Google Colab
+- Git & GitHub
 
-## Learning Source
-- Concepts practiced independently after learning from **IBM Cognitive.ai (Skills Network)**.
-
-# car-price-data-analysis
-Data preprocessing and EDA on car price dataset using Python
-
+## Author
+Sakshi Khedkar
